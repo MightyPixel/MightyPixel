@@ -1,0 +1,42 @@
+{
+    "experience": [
+
+    {
+        "companyName": "Chobolabs",
+        "timeframe": "03/2016-05/2017 (~1.5 years)",
+        "role": "Backend & Tools Engineer",
+        "description": " Innovative game company trying to bring e-sports to mobile. Our expectation for Chobolabs's flagship game - \"Mayhem\" is to be big as \"Angry Birds\" and profitable as \"Crash Royale\".",
+        "achivements": [
+            "For 1 year I got used to DYI mindset & code generation approach.",
+            "Managed the infrastructure - using AWS/Packer/Terraform.",
+            "I crafted \"Chatter Protocol\" - It allows using Chobolabs's DSL to generate inter-microservice communication protocol that exposes clean pub/sub style interface.",
+            "Chobo Backyard - Angular admin panel that can generate forms using type info from the backend.",
+            "Solved real time communication issue - We needed to be able to implement features like chat or notify users for events in real time."
+        ]
+    },
+    {
+        "companyName": "Obecto",
+        "timeframe": "03/2013-11/2016 (~2.5 years)",
+        "role": "Full Stack Engineer",
+        "description": "Team of 20 professionals working in small teams with startups. Every employee is motivated to become expert in the domain.",
+        "achivements": [
+            "Learned to work in small and self-contained full-stack teams, working with clients (mostly startups) to achieve their business goal and improving as engineer",
+            "Hired By Me - Platform that facilitates hiring in UK. I had the chance to work with very strong and methodological team. We used all good practices that made sense - code reviews, ownership of problems, scrum and knowledge sharing. We used Spring and Angular. I architected a e-mail-like feature",
+            "SoTexy - Platform that allowed matching people to their perfect career. I owned the engineering side and worked closely with the business and leading small team of 2.",
+            "10+ smaller projects"
+        ]
+    },
+    {
+        "companyName": "Buzlylabs",
+        "timeframe": "10/2011-12/2012 (~2 years)",
+        "role": "iOS Developer",
+        "description": "Mobile Application Company",
+        "achivements": [
+            "Developed 5 iOS games & applications.",
+            "Appshawk - Application that displays paid apps that are free for limited time. With this app we applied for funding in the very first Bulgarian incubator - my first experience with the startup world.",
+            "Puzzle Lab - After being rejected we teamed up with one other design team and created a logic game containing micro-games. I developed 1 of the micro-games - Concentration - memorizing and matching pairs of cards.",
+            "I also completely rewritten an air hocky game (with Box2d as physics engine) and developed a PoC for multiplayer mode."
+        ]
+    }
+    ]
+}
