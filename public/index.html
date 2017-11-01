@@ -34,21 +34,22 @@
       <div class="box-four"></div>
     </div>
 
-    <nav class="menu">
+    <nav class="menu no-print">
       <ul class="menu-ul">
-        <li> <a href="index.html#about"> About </a> </li>
-        <li> <a href="index.html#experience-testimonials"> Experience </a> </li>
-        <li> <a href="index.html#skill-education"> Education </a> </li>
-        <li> <a href="index.html#portfolio"> Projects </a> </li>
-        <li> <a href="index.html#blog"> Blog </a> </li>
-        <li> <a href="index.html#contact"> Contact </a> </li>
+        <li> <a href="index.html#about">About</a></li>
+        <li> <a href="index.html#experience">Experience</a></li>
+        <li> <a href="index.html#skill-list">Skills</a></li>
+        <li> <a href="index.html#course-list">Courses</a></li>
+        <li> <a href="index.html#skill-education">Education</a></li>
+        <li> <a href="index.html#portfolio">Projects</a></li>
+        <li> <a href="index.html#blog">Blog</a></li>
       </ul><!-- /. menu list -->
       <div class="menu-holder">
         <div class="menu-bar"></div>
       </div>
     </nav><!-- /. menu -->
 
-    <section id="home" class="header" style="background-image: url('assets/images/cover.jpg')">
+    <section id="home" class="header no-print" style="background-image: url('assets/images/cover.jpg')">
       <div class="sector">
         <div class="box">
           <h1> O </h1>
@@ -61,7 +62,6 @@
     <section id="about">
       <!-- Big Section Background Title
       <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">about</h1><!-- /. large title -->
-
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-sm-push-8">
@@ -83,9 +83,9 @@
               <a class="tooltip-cl cv-download" data-tooltip="Download CV" href="index.html#cv-url"> <i class="ion-ios-download-outline i-size-small"></i> </a>
 
             </div><!-- /.section-holder -->
-          </div><!-- /. row -->
+          </div><!-- /. col -->
 
-          <!-- /.col-sm-4 -->
+
           <div class="col-sm-8 col-sm-pull-4">
             <div class="section-holder">
               <!-- short bio -->
@@ -113,13 +113,12 @@
                 you can view my <a>CV</a>
                 and my work <a href="">manifesto</a>
               </p>
-
               <br/>
 
               <div class="container">
                 <div class="row">
 
-                  <div class="col-sm-3">
+                  <div class="col-sm-3 about-lang">
                     <!-- languages -->
                     <div class="icon-holder i-size-small">
                       <i class="ion-chatbubbles"></i>
@@ -128,7 +127,7 @@
                     <p> Bulgarian (Native) | English (Advanced) </p>
                   </div>
 
-                  <div class="col-sm-3">
+                  <div class="col-sm-3 about-hobbies">
                     <!-- hobbies -->
                     <div class="icon-holder i-size-small">
                       <i class="ion-android-bicycle"></i>
@@ -137,14 +136,15 @@
                     <p> snowboarding | swimming | gaming </p>
                   </div>
                 </div>
-              </div><!-- /.section-holder -->
-            </div><!-- /.col -->
-          </div><!-- /. row -->
-        </div><!-- /. container -->
+              </div><!-- /.container -->
+            </div><!-- /.section-holder -->
+          </div><!-- /.col -->
+        </div><!-- /. row -->
+      </div><!-- container -->
     </section><!-- /.about -->
 
 
-    <section id="experience-testimonials">
+    <section id="experience">
       <!-- Big Section Background Title
       <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">experience</h1><!-- /. large title -->
 
@@ -172,6 +172,9 @@
           <!-- skills -->
           <div class="col-sm-4">
             <div id="skill-list"></div>
+          </div>
+          <div class="col-sm-4">
+            <div id="course-list"></div>
           </div>
         </div><!-- /.row -->
       </div><!-- container -->
@@ -229,9 +232,82 @@
               </div><!-- /.time-line -->
             </div><!-- /.section-holder -->
           </div><!-- /.section-holder -->
+        <div class="col-sm-4">
+          <div id="strength-list"></div>
+        </div>
+        <div class="col-sm-4">
+          <div id="achivement-list"></div>
+        </div>
         </div><!-- /.col-md-8 -->
+
       </div><!-- /.container -->
     </section><!-- /. education -->
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-holder">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="icon-holder i-size-big">
+                <i class="ion-ios-paper-outline"></i>
+              </div>
+              <h3>Projects</h3>
+            </div><!-- /.col-sm-12 -->
+          </div><!-- /.row -->
+          <div class="row">
+            <div id="project-list">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fun-fact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-holder">
+                            <div class="icon-holder-center i-size-big">
+                              <i class="ion-calculator"></i>
+                            </div>
+                        <h3 class="section-title"> Fun Facts </h3>
+                        <ul class="counter">
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                  <i class="ion-code-working"></i>
+                                </div>
+                                <h3 class="counter-data">20</h1>
+                                <h4>Projects Done</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                  <i class="ion-ribbon-b"></i>
+                                </div>
+                                <h3 class="counter-data">30</h1>
+                                <h4>Courses</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                  <i class="ion-erlenmeyer-flask"></i>
+                                </div>
+                                <h3 class="counter-data">9</h1>
+                                <h4>Hackathons</h4>
+                            </li><!-- /.counter list -->
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <i class="ion-trophy"></i>
+                                </div>
+                                <h3 class="counter-data">5</h1>
+                                <h4>Awards won</h4>
+                            </li><!-- /.counter list -->
+                        </ul><!-- /.counter -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.fun-fact -->
+
+
 
     <div id="root"></div>
     <!--

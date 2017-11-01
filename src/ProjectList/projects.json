@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "title": "Checkin@FMI",
+            "tag": "Python | RFID | Raspberry | Django",
+            "date": "Oct 2013",
+            "place": "HackFMI",
+            "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
+            "description": "Access control system with RFID cards & barcodes. My teammate and I won first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was funded from the university, so that it could be implemented in students' hall - making the access to the room easier and allowing books to be taken with ease. "
+        },
+        {
+            "title": "Thanks Mate!",
+            "tag": "NodeJS | OpenCV | Face Recognition",
+            "date": "Apr 2015",
+            "place": "HackFMI",
+            "link": "https://github.com/MightyPixel/innovation",
+            "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
+        },
+        {
+            "title": "3D Scanner",
+            "tag": "Arduino | Python | Hardware",
+            "date": "Dec 2015",
+            "place": "HackFMI",
+            "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
+            "description": "Another HackFMI project: A colleague and I developed functional 3D scanner made by boxes, toy laser, 2 MP camera, etc. Working prototype with total cost $45. We won a mentor award."
+        },
+        {
+            "title": "BikeON",
+            "tag": "Django | Python | Hardware | Arduino",
+            "date": "May 2016",
+            "place": "HackFMI",
+            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people."
+        },
+        {
+            "title": "Recipe Guesser",
+            "tag": " Python | Genetic Algorithm",
+            "date": "Feb 2016",
+            "place": "FMI AI Course",
+            "link": "https://github.com/MightyPixel/guess_recipe",
+            "description": "Simple genetic algorithm that guesses the ingredients of a meal. Final project of AI university course scoring maximum points. Got good understanding of genetic algorithms."
+        }
+    ]
+}

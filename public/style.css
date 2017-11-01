@@ -46,8 +46,11 @@ a, a:hover, a:visited, a:active, a:focus {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-    margin: 20px 0;
     color: #101010;
+}
+
+h1, h2, h3, h4 {
+  margin: 20px 0;
 }
 
 section {
@@ -158,7 +161,6 @@ section {
     margin: 0;
     color: #ececec;
 }
-
 
 /* -------------------------------------
             1. MENU
@@ -372,6 +374,12 @@ section {
     width: 110px;
 }
 
+.about-lang, .about-hobbies {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  color: #101010;
+}
+
 /* -------------------------------------
           4. SKILLS
 * ------------------------------------- */
@@ -496,6 +504,14 @@ section {
     border-radius: 50%;
 }
 
+/*
+Skills
+*/
+
+.tech-and-skills-header {
+  text-transform: capitalize;
+}
+
 /* -------------------------------------
           7. WORK PROCESS
 * ------------------------------------- */
@@ -537,72 +553,15 @@ section {
 
 .box-it {
     border: 1px solid #aaa;
-    position: relative;
-    margin-bottom: 30px;
 }
 
-.box-it:hover {
-    background: rgba(16, 16, 16, .5);
+.project-item-date {
+  margin-right: 5px;
 }
 
-.box-it:hover img {
-    opacity: .8;
-}
+.project-item-place {
 
-.box-it:hover .box-inner {
-    opacity: 0;
 }
-
-.box-it img {
-    opacity: 0;
-}
-
-.box-it:hover:before{
-    background: none;
-}
-
-.box-it:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-}
-
-.box-it .box-inner {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    text-align: center;
-}
-
-/*
- Magnific popup
-*/
-.mfp-close {
-    font-size: 40px;
-    margin-bottom: 30px;
-    cursor: crosshair !important;
-}
-
-.mfp-close i {
-    cursor: pointer;
-}
-
-.popup-it, .popup-it:hover, .popup-it:focus {
-    color: #444;
-    text-decoration: none;  
-}
-
-.popup-it:focus {
-    outline: none;
-}
-
-.mfp-zoom-out-cur {
-    cursor: crosshair !important;
-}
-
 
 /* -------------------------------------
           9. FUN FACTS
@@ -942,59 +901,6 @@ section {
 }
 
 
-/* ------------ 11.2 LINE ART ------------ */
-.line-art-top{
-    position: absolute;
-    top:0;
-    left: 50%;
-    -webkit-transform: translateX(-50%) rotate(90deg);
-            transform: translateX(-50%) rotate(90deg);
-    margin-top: -14px;
-}
-
-.line-art-bottom{
-    position: absolute;
-    bottom:0;
-    left: 50%;
-    -webkit-transform: translateX(-50%) rotate(90deg);
-            transform: translateX(-50%) rotate(90deg);
-    margin-bottom: -14px;
-}
-
-.line-art-left{
-    position: absolute;
-    top:50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-left: 5px;
-}
-
-.line-art-right{
-    position: absolute;
-    top:50%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    margin-right: 5px;
-}
-
-.line-art-top div, .line-art-bottom div, .line-art-left div, .line-art-right div{
-    background: #101010;
-    width: 10px;
-    height: 1px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-}
-
-.line-art-top div:nth-child(1), .line-art-top div:nth-child(2), .line-art-top div:nth-child(3), .line-art-top div:nth-child(4),
-.line-art-bottom div:nth-child(1), .line-art-bottom div:nth-child(2), .line-art-bottom div:nth-child(3), .line-art-bottom div:nth-child(4),
-.line-art-left div:nth-child(1), .line-art-left div:nth-child(2), .line-art-left div:nth-child(3), .line-art-left div:nth-child(4),
-.line-art-right div:nth-child(1), .line-art-right div:nth-child(2), .line-art-right div:nth-child(3), .line-art-right div:nth-child(4){
-    margin: 5px;
-}
-
-
 /* ------------ 11.3 TEXTURE ------------ */
 .texture, 
 #msgSubmit, 
@@ -1062,7 +968,7 @@ section {
     a {
         font-size: 13px;
     }
-    
+
     .header {
         margin-bottom: 30px;
     }
@@ -1122,7 +1028,7 @@ section {
     }
 
     .img-holder {
-        max-width: 350px;
+        max-width: 150px;
         margin: 0 auto;
     }
 
@@ -1158,4 +1064,85 @@ section {
         display: inline-block;
         margin: 10px 5px 18px;
     }
+}
+
+
+@media print
+{
+  h3 {
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 5px;
+  }
+  .time-item {
+    padding: 5px;
+    display: inline-block;
+  }
+  [class*=col] {
+    margin-bottom: 5px;
+  }
+  section {
+    padding: 0px !important;
+  }
+  .section-holder {
+    padding: 10px;
+  }
+
+  #about .section-holder {
+    border: none !important;
+  }
+
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+
+  .project-box {
+    height: 280px;
+  }
+
+  .owl-carousel .owl-stage{
+    width:100% !important;
+    transition:inherit !important;
+    transform:inherit !important;
+  }
+
+  .owl-carousel.owl-drag .owl-item{
+    width:30% !important;
+    display: inline-block;
+  }
+
+  .skill-holder .owl-item {
+    height: 150px;
+  }
+
+  .project-list .owl-item {
+    height: 300px;
+  }
+  .project-list a {
+    display: none;
+  }
+  .skill-list a {
+    display: none;
+  }
+
+  .skillbar-title span {
+    line-height: 20px;
+    height: 20px;
+  }
+
+  .owl-nav {
+    display: none !important;
+  }
+
+  #fun-fact .counter  li {
+    padding: 0;
+    margin: 0;
+    min-width: 50px;
+  }
 }

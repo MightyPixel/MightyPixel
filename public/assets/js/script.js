@@ -29,56 +29,6 @@
         }
     });
 
-    /* ---- Owl Carousel Testimonial ---- */
-    $(".testi-holder").owlCarousel({
-        singleItem: true,
-        navigationText: [
-            '<span class="ion-ios-arrow-left"></span>',
-            '<span class="ion-ios-arrow-right"></span>'
-        ],
-        navigation: true,
-        pagination: false,
-        transitionStyle: "fade"
-    });
-
-    /* ---- Owl Carousel Skill ---- */
-    $(".skill-holder").owlCarousel({
-        singleItem: true,
-        navigationText: [
-            '<span class="ion-ios-arrow-left"></span>',
-            '<span class="ion-ios-arrow-right"></span>'
-        ],
-        navigation: true,
-        pagination: false,
-        addClassActive : true,
-        afterMove: function() {
-            if($(this).find('active')) {
-                $('.active .skillbar').each(function() {
-                    if (!$(this).find('.skillbar-bar').hasClass('to-animate')) {
-                        $(this).find('.skillbar-bar').addClass('to-animate');
-                        animateSkill(950);
-                    }
-                });   
-            }
-        }
-    });
-
-    /* ---- Owl Carousel Portfolio ---- */
-    $(".port-holder").owlCarousel({
-        items: 3,
-        itemsDesktop: false,
-        itemsDesktopSmall: [991, 2],
-        itemsTablet: [768, 1],
-        itemsTabletSmall: false,
-        itemsMobile: false, //[479,1], 
-        navigationText: [
-            '<span class="ion-ios-arrow-left"></span>',
-            '<span class="ion-ios-arrow-right"></span>'
-        ],
-        navigation: true,
-        pagination: false
-    });
-
     /* ---- Magnific Popup ---- */
     $('.popup-it').magnificPopup({
         closeMarkup: '<button title="%title%" type="button" class="mfp-close"><i class="ion-ios-close-empty"></i></button>'

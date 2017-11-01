@@ -37,7 +37,8 @@ function template() {
           <div className="skill-holder">
             <OwlCarousel
               className="owl-theme"
-              loop margin={15} nav
+              margin={15}
+              nav
               items={2}
               autoplay={true}
             >
