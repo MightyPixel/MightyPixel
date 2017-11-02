@@ -51,7 +51,7 @@ function template() {
     <div className="project-list">
       <OwlCarousel
         className="owl-theme"
-        margin={15} nav
+        margin={15}
         autoplay={false}
         responsive={resp}
         >

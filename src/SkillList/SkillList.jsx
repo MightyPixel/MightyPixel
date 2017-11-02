@@ -1,7 +1,7 @@
 import React from "react";
 import OwlCarousel from 'react-owl-carousel';
 import "./SkillList.css";
-import skillsData from "./skills.json";
+import skillsData from "./skills.js";
 
 function template() {
   const data = skillsData.data;
@@ -38,7 +38,6 @@ function template() {
             <OwlCarousel
               className="owl-theme"
               margin={15}
-              nav
               items={2}
               autoplay={true}
             >

@@ -17,7 +17,7 @@ function template() {
         </div>
 
         <h3 className="tech-and-skills-header">
-          Courses
+          Favorite Courses
         </h3>
         <div className="course-holder">
           <ul>
