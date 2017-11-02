@@ -42,6 +42,14 @@ h1, h2, h3, h4 {
   margin: 20px 0;
 }
 
+h4, h5 {
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 15px;
+}
+
 ul {
   padding-left: 20px;
 }
@@ -323,6 +331,14 @@ section {
 /* -------------------------------------
             3. ABOUT
 * ------------------------------------- */
+.about-me {
+  display: flex;
+}
+
+.about-me [class*=col] {
+  display: inline-flex;
+}
+
 .img-holder {
     position: relative;
     margin: 20px 0 30px; 
