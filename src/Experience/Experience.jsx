@@ -2,8 +2,9 @@ import "./Experience.css";
 import React from "react";
 
 function template() {
+  const id = "career-" + this.props.details.companyName.toLocaleLowerCase();
   return (
-    <div key="props.key" className="experience col-sm-12">
+    <div id={id} key="props.key" className="experience col-sm-12">
       <div className="time-item">
         <div className="time-year">
           {this.props.details.timeframe}
