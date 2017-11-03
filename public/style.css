@@ -343,6 +343,15 @@ section {
   float: right;
 }
 
+.currently-title {
+  margin-bottom: 0px;
+}
+
+.currently-list {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 .img-holder {
     position: relative;
     margin: 20px 0 30px; 
@@ -977,7 +986,10 @@ Skills
               12. RESPONSIVE
 * ------------------------------------- */
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
+    .about-me {
+      display: block;
+    }
 
     body {
         font-size: 12px;
@@ -1090,6 +1102,11 @@ Skills
 
 @media print
 {
+  .about-me {
+    display: flex;
+  }
+
+
   h3 {
     margin: 0;
     padding: 5px;
@@ -1124,7 +1141,7 @@ Skills
   }
 
   .project-box {
-    height: 280px;
+    height: 300px;
   }
 
   .owl-carousel .owl-stage{
@@ -1143,7 +1160,7 @@ Skills
   }
 
   .project-list .owl-item {
-    height: 300px;
+    height: 320px;
   }
   .project-list a {
     display: none;
@@ -1159,6 +1176,10 @@ Skills
 
   .owl-nav {
     display: none !important;
+  }
+
+  #fun-fact {
+    display: none;
   }
 
   #fun-fact .counter  li {
