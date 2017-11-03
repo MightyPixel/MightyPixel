@@ -339,6 +339,10 @@ section {
   display: inline-flex;
 }
 
+.about-me-info {
+  float: right;
+}
+
 .img-holder {
     position: relative;
     margin: 20px 0 30px; 
@@ -1111,7 +1115,7 @@ Skills
   }
 
   #about .section-holder {
-    border: none !important;
+    margin-top: 10px;
   }
 
   .no-print, .no-print *
