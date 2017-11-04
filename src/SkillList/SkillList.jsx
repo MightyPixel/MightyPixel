@@ -39,7 +39,6 @@ function template() {
               className="owl-theme"
               margin={15}
               items={2}
-              autoplay={true}
             >
               {list}
             </OwlCarousel>
