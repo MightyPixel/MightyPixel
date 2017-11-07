@@ -3,8 +3,8 @@ export default {
     {
       "source": "Chobolabs",
       "skills": [
-        {"name": "NodeJS", "level": "4/5"},
         {"name": "Javascript", "level": "4/5"},
+        {"name": "NodeJS", "level": "4/5"},
         {"name": "AWS", "level": "3/5"},
         {"name": "DSL", "level": "2/5"},
         {"name": "PostgreSQL", "level": "2/5"}
@@ -15,8 +15,8 @@ export default {
       "skills": [
         {"name": "Java", "level": "4/5"},
         {"name": "Spring", "level": "3/5"},
-        {"name": "Design Patterns", "level": "3/5"},
         {"name": "Clean Code", "level": "4/5"},
+        {"name": "Design Patterns", "level": "3/5"},
         {"name": "Scrum", "level": "3/5"}
       ]
     },
