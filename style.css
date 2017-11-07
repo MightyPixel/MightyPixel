@@ -269,7 +269,7 @@ section {
 .header {
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
@@ -991,6 +991,14 @@ Skills
               12. RESPONSIVE
 * ------------------------------------- */
 
+@media not print {
+  @media (max-width: 991px) {
+    .about-me [class*=col] {
+      display: block;
+    }
+  }
+}
+
 @media (max-width: 991px) {
     .about-me {
       display: block;
@@ -1111,7 +1119,6 @@ Skills
 
 @media print
 {
-
 
   .print-only {
     display: block;
