@@ -9,7 +9,7 @@
     "react-owl-carousel": "^2.2.0",
     "react-scripts": "1.0.14"
   },
-  "homepage": "https://mightypixel.github.io/MightyPixel",
+  "homepage": "http://oangelov.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

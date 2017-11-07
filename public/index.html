@@ -86,8 +86,8 @@
               <h4> <strong>Nationality:</strong> <span class="about-me-info">Bulgarian</span></h4>
               <h4 class="currently-title"> <strong>Currently</strong> </h4>
               <ul class="currently-list">
-                <li>Reading: The passionate programmer</li>
-                <li> Studying: Machine Learning</li>
+                <li>Reading: <a href="http://shop.oreilly.com/product/0636920056591.do" target="_blank">Advanced Analytics with Spark</a></li>
+                <li>Studying: <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Machine Learning</a></li>
               </ul>
 
               <div>
@@ -113,6 +113,11 @@
               </div>
               <h3 class="section-title"> About Me </h3>
               <p>
+                <strong class="print-only">NOTE: This is printed version of www.oangelov.com on <span id="current-date"></span>
+                <br/>
+                <br/>
+                </strong>
+
                 "The best way to predict the future is to invent it." -- Alan Key.
                 <br/>
                 Ever since I first heard that quote I am haunted by it.
@@ -370,6 +375,12 @@
      $(window).load(function() {
        $("#loader").delay(300).fadeOut("slow");
      });
+
+     const n =  new Date();
+     const y = n.getFullYear();
+     const m = n.getMonth() + 1;
+     const d = n.getDate();
+     document.getElementById("current-date").innerHTML = m + "/" + d + "/" + y;
     </script>
   </body>
 </html>

@@ -16,7 +16,7 @@ function template() {
   const list = data.map((item, index) =>
     <li key={index}>
       <div>{item.name}</div>
-      <div>{item.description}</div>
+      <div><strong>{item.title}:</strong> {item.description}</div>
     </li>
   );
 
