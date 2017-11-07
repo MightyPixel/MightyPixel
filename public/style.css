@@ -24,7 +24,8 @@
             0. GLOBAL
 * ------------------------------------- */
 body {
-    font-family: "Roboto Mono", sans-serif; 
+    /* font-family: "Roboto Mono", sans-serif;  */
+    font-family: sans-serif; 
     height: 100%;
     color: #444;
 }
@@ -360,6 +361,10 @@ section {
 .img-circle {
   max-width: 50%;
   margin: auto;
+}
+
+.tool-logo {
+  width: 25px;
 }
 
 .tweet {

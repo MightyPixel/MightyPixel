@@ -14,6 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
+    <title>Ognyan Angelov (MightyPixel)</title>
     <!--
          manifest.json provides metadata used when your web app is added to the
          homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -24,13 +25,11 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,700,500,500italic,700italic,400italic%7CLato:400,700,300' rel='stylesheet' type='text/css'>
-
-    <title>Ognyan Angelov (MightyPixel)</title>
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" /> -->
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/ionicons.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
@@ -84,6 +83,14 @@
               <h4> <strong>Profession:</strong> <span class="about-me-info">Software Engineer</span></h4>
               <h4> <strong>Nick:</strong> <span class="about-me-info">MightyPixel</span></h4>
               <h4> <strong>Nationality:</strong> <span class="about-me-info">Bulgarian</span></h4>
+              <h4>
+                <strong>Favorite tool:</strong>
+                <span class="about-me-info">
+                  <a href="http://spacemacs.org/">
+                  <img class="tool-logo" src="assets/images/emacs_logo.png">
+                  </a>
+                </span>
+              </h4>
               <h4 class="currently-title"> <strong>Currently</strong> </h4>
               <ul class="currently-list">
                 <li>Reading: <a href="http://shop.oreilly.com/product/0636920056591.do" target="_blank">Advanced Analytics with Spark</a></li>
@@ -95,6 +102,7 @@
                   <a href="https://twitter.com/mightypixel" target="_blank"> <i class="ion-social-twitter-outline i-size-small"></i> </a>
 
                   <a href="https://github.com/MightyPixel/"> <i class="ion-social-github-outline i-size-small"></i> </a>
+                  <a href="https://www.linkedin.com/in/ognyanangelov/"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
                   <a href="https://mightypixel.libib.com/" target="_blank"><i class="ion-ios-bookmarks-outline i-size-small"></i></a>
                 </div><!-- /.social-links -->
                 <!-- id used as tooltip title -->
@@ -113,26 +121,47 @@
               </div>
               <h3 class="section-title"> About Me </h3>
               <p>
-                <strong class="print-only">NOTE: This is printed version of www.oangelov.com on <span id="current-date"></span>
-                <br/>
-                <br/>
-                </strong>
+                <p class="print-only">
+                  <strong>NOTE: This is printed version of www.oangelov.com on <span id="current-date"></span>
+                  </strong>
+                  <br/>
+                </p>
 
-                "The best way to predict the future is to invent it." -- Alan Key.
-                <br/>
-                Ever since I first heard that quote I am haunted by it.
-                Every time when I get bored it pops in my head and it doesn't leave
-                until I do <strong>something</strong>.
-                <br/>
-                <br/>
-                Alternative name of this page would be "beside the box" or "burn the box" or even,
-                my favorite, "why do we assume that there is
-                a box"? My friends know me by my crazy ideas that they classify as "out of the box".
-                But for me it is just ideas looked from different point of view.
-                <br>
-                <br>
-                By proffesion I'm a Software Engineer (I try to put attention to my work as if I am a real engineer)
-                you can view my <a>CV</a> and my work <a href="">manifesto</a> (Coming soon)
+                <p>
+                  "The best way to predict the future is to invent it." -- Alan Key.
+                </p>
+                <p>
+                  Ever since I first heard this quote I am haunted by it.
+                  Every time when I get bored it pops in my head and it doesn't leave
+                  until I do something <strong>meaningful</strong>.
+                </p>
+                <p>
+                  I believe every person has different strengths and weaknesses. Those traits should be explored
+                  in order to find the right path for that individual. The right path for someone is the path
+                  that offers opportunities to challenge one's strengths and chances to soften the weaknesses,
+                  it is the most natural, fun and effective way to live. <br/>
+                  I think that I'm in the right track. Ever since I was child I loved exploring how
+                  different things work (and yes - this means a lot of broken stuff), creating something useful
+                  by combining and modifying existing objects and last but not least - I loved "hacking"
+                  tedious tasks by coming up with original way to do it (for example holding two pencils when
+                  I was doing writing homeworks - therefore my handwriting suffered).<br/>
+                  Those explore/create/invent passions made me better at exact sciences like - math & physics.
+                  Also, I was absoluteliy absorbed with gadgets - pocket and video games and eventually with computers.
+                  So when I had to make a choice about what to study after school it was obvious - math + computers = programming.<br/>
+                  After I made the decisive career choice I naturally follow it. While doing so I'm trying different
+                  activities to improve as a person (That is why I have so many hobbies) - snowboarding, tennis, swimming,
+                  photography, music (drums and flute) and many more.
+                </p>
+                <!-- <p>
+                     Alternative name of this page would be "beside the box" or "burn the box" or even,
+                     my favorite, "why do we assume that there is
+                     a box"? My friends know me by my crazy ideas that they classify as "out of the box".
+                     But for me it is just ideas looked from different point of view.
+                     </p>
+                     <p>
+                     By proffesion I'm a Software Engineer (I try to put attention to my work as if I am a real engineer)
+                     you can view my work <a href="">manifesto</a> (Coming soon)
+                     </p> -->
               </p>
               <br/>
 
@@ -380,7 +409,7 @@
      const y = n.getFullYear();
      const m = n.getMonth() + 1;
      const d = n.getDate();
-     document.getElementById("current-date").innerHTML = m + "/" + d + "/" + y;
+     document.getElementById("current-date").innerHTML = d + "/" + m + "/" + y;
     </script>
   </body>
 </html>
