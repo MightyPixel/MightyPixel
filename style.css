@@ -1155,10 +1155,6 @@ Skills
     display: none !important;
   }
 
-  .project-box {
-    height: 300px;
-  }
-
   .owl-carousel .owl-stage{
     width:100% !important;
     transition:inherit !important;
@@ -1174,8 +1170,15 @@ Skills
     height: 150px;
   }
 
+  .project-box {
+    height: 350px;
+  }
+
+  .project-list {
+    padding-left: 20px;
+  }
   .project-list .owl-item {
-    height: 320px;
+    height: 350px;
   }
   .project-list a {
     display: none;
