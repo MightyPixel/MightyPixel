@@ -1083,7 +1083,7 @@ Skills
     .icon-holder-time {
         top: 50px;
     }
-    
+
     .box-it {
         max-width: 350px;
         margin:0 auto;
@@ -1100,8 +1100,18 @@ Skills
     }
 }
 
+.print-only {
+  display: none;
+}
+
 @media print
 {
+
+
+  .print-only {
+    display: block;
+  }
+
   .about-me {
     display: flex;
   }
@@ -1151,7 +1161,7 @@ Skills
   }
 
   .owl-carousel.owl-drag .owl-item{
-    width:30% !important;
+    width:23% !important;
     display: inline-block;
   }
 
@@ -1165,6 +1175,11 @@ Skills
   .project-list a {
     display: none;
   }
+
+  .container {
+    margin-top: 5px;
+  }
+
   .skill-list a {
     display: none;
   }
