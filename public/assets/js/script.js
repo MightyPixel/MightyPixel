@@ -10,36 +10,6 @@
 
     "use strict";
 
-    /* ---- Textillate ---- */
-    $('.til').textillate({
-
-        // enable looping
-        loop: true,
-        in : {
-            effect: 'fadeIn',
-            delayScale: 1.5,
-            delay: 150,
-            shuffle: true
-        },
-        out: {
-            effect: 'fadeOut',
-            delayScale: 1.5,
-            delay: 150,
-            shuffle: true
-        }
-    });
-
-    /* ---- Magnific Popup ---- */
-    $('.popup-it').magnificPopup({
-        closeMarkup: '<button title="%title%" type="button" class="mfp-close"><i class="ion-ios-close-empty"></i></button>'
-    });
-
-    /* ---- Magnific Bug Workaround ---- */
-    $(document).on('click', '.mfp-close', function(e) {
-        e.preventDefault();
-        $.magnificPopup.close();
-    });
-
     /* ---- Facts Counter ---- */
     $('.counter-data').counterUp({
         delay: 10,
