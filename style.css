@@ -24,10 +24,9 @@
             0. GLOBAL
 * ------------------------------------- */
 body {
-    /* font-family: "Roboto Mono", sans-serif;  */
-    font-family: sans-serif; 
-    height: 100%;
-    color: #444;
+  font-family: sans-serif;
+  height: 100%;
+  color: #444;
 }
 
 a, a:hover, a:visited, a:active, a:focus {
@@ -1117,8 +1116,12 @@ Skills
   display: none;
 }
 
+/* **** PRINT **** */
+
 @media print
 {
+  #Header, #Footer { display: none !important; }
+  @page { margin: 0; }
 
   .print-only {
     display: block;
@@ -1178,14 +1181,14 @@ Skills
   }
 
   .project-box {
-    height: 350px;
+    height: 300px;
   }
 
   .project-list {
     padding-left: 20px;
   }
   .project-list .owl-item {
-    height: 350px;
+    height: 300px;
   }
   .project-list a {
     display: none;
