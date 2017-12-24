@@ -8,7 +8,8 @@
             "achivements": [
                 "For 1 year I got used to DYI mindset & code generation approach.",
                 "Managed the infrastructure - using AWS/Packer/Terraform.",
-                "I crafted \"Chatter Protocol\" - It allows using Chobolabs's DSL to generate inter-microservice communication protocol that exposes clean pub/sub style interface.",
+                "Integrate and Setup third party services - monitoring & alarm service (Datadog), data analytics (DeltaDNA+Cloudant).",
+                "I crafted \"Chatter Protocol\" - It allows using Chobolabs's DSL to generate inter-microservice communication protocol that exposes clean pub/sub style typed interface.",
                 "Chobo Backyard - Angular admin panel that can generate forms using type info from the backend.",
                 "Solved real time communication issue - We needed to be able to implement features like chat or notify users for events in real time."
             ]
