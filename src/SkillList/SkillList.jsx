@@ -38,7 +38,7 @@ function template() {
             <OwlCarousel
               className="owl-theme"
               margin={15}
-              items={2}
+              items={1}
             >
               {list}
             </OwlCarousel>
