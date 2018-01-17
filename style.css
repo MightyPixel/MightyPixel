@@ -1005,7 +1005,7 @@ Skills
     }
 
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     section {
@@ -1013,31 +1013,31 @@ Skills
     }
 
     a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .header {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
-    h1 { /* 36px */
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
         font-size: 30px;
     }
 
-    h2 { /* 30px */
+    h3 {
         font-size: 24px;
     }
 
-    h3 { /* 24px */
+    h4 {
         font-size: 18px;
     }
 
-    h4 { /* 18px */
+    h5 {
         font-size: 14px;
-    }
-
-    h5 { /* 14px */
-        font-size: 12px;
     }
 
     h6 { /* 12px */
@@ -1132,7 +1132,7 @@ Skills
     display: flex;
   }
 
-  .skill-list, #project-list {
+  .skill-list, #project-list, .info-list {
     padding-top: 10px;
   }
 
@@ -1173,11 +1173,12 @@ Skills
     width:100% !important;
     transition:inherit !important;
     transform:inherit !important;
+    display: grid !important;
   }
 
-  .owl-carousel.owl-drag .owl-item{
-    width:23% !important;
-    display: inline-block;
+  .owl-item{
+    /* width: 23% !important; */
+    display: inline-grid !important;
   }
 
   .skill-holder .owl-item {
@@ -1185,14 +1186,14 @@ Skills
   }
 
   .project-box {
-    height: 300px;
+    /* height: 300px; */
   }
 
   .project-list {
     padding-left: 20px;
   }
   .project-list .owl-item {
-    height: 300px;
+    /* height: 300px; */
   }
   .project-list a {
     display: none;
