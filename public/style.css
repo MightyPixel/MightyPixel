@@ -409,128 +409,9 @@ section {
 }
 
 /* -------------------------------------
-          4. SKILLS
-* ------------------------------------- */
-
-.skill-title {
-  text-align: center;
-  position: relative;
-}
-
-.dreyfus-info {
-  font-size: small;
-  margin-left: 10px;
-}
-
-.skill-title:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 100%;
-    background: #101010;
-    height: 1px;
-    bottom: -5px;
-}
-
-.skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:10px;
-    width:100%;
-    transition:0.4s linear;
-    transition-property:width, background-color;
-    padding:15px 0;
-}
-
-.skillbar-title {
-    position: relative;
-    font-size: 14px;
-    color: #101010;
-    z-index: 100;
-    display: block;
-    width: 100%;
-}
-
-.skillbar-title span {
-    display: inline-block;
-    height: 35px;
-    line-height: 35px;
-}
-
-.skill-name {
-  text-align: left;
-}
-
-.skill-level {
-  font-weight: bold;
-}
-
-.skillbar-bar {
-    height:2px;
-    width:0;
-    z-index:10;
-    position:absolute;
-    right: 0;
-    background: #101010;
-}
-
-.skill-bar-percent {
-    position:absolute;
-    left:0;
-    top:15px;
-    font-size:12px;
-    height:35px;
-    line-height:35px;
-    color:#aaa;
-    z-index: 100;
-}
-
-.skillbar-bg {
-    width: 100%;
-    height: 2px;
-    background: #aaa;
-    position: absolute;
-    z-index: 0;
-}
-
-
-/* -------------------------------------
     5. EDUCATION & WORK EXPERIENCE
 * ------------------------------------- */
-.time-line {
-    position: relative;
-}
 
-.time-item {
-    padding: 15px 0;
-    position: relative;
-}
-
-.time-year {
-    position: absolute;
-    top: 15%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    font-size: 20px;
-    color: #999;
-    opacity: 1;
-    font-weight: 400;
-}
-
-.icon-holder-time {
-    display: inline-block;
-    position: absolute;
-    top: 32px;
-    left: -30px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    background: #fff;
-    font-size: 30px;
-    line-height: 0;
-    padding: 0 1px;
-    border-radius: 50%;
-}
 
 /*
 Skills
@@ -1005,7 +886,7 @@ Skills
     }
 
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     section {
@@ -1013,31 +894,31 @@ Skills
     }
 
     a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .header {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
-    h1 { /* 36px */
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
         font-size: 30px;
     }
 
-    h2 { /* 30px */
+    h3 {
         font-size: 24px;
     }
 
-    h3 { /* 24px */
+    h4 {
         font-size: 18px;
     }
 
-    h4 { /* 18px */
+    h5 {
         font-size: 14px;
-    }
-
-    h5 { /* 14px */
-        font-size: 12px;
     }
 
     h6 { /* 12px */
@@ -1132,7 +1013,7 @@ Skills
     display: flex;
   }
 
-  .skill-list, #project-list {
+  .skill-list, #project-list, .info-list {
     padding-top: 10px;
   }
 
@@ -1173,11 +1054,14 @@ Skills
     width:100% !important;
     transition:inherit !important;
     transform:inherit !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 10px;
   }
 
-  .owl-carousel.owl-drag .owl-item{
-    width:23% !important;
-    display: inline-block;
+  .owl-item {
+    display: inline-grid !important;
   }
 
   .skill-holder .owl-item {
@@ -1185,14 +1069,16 @@ Skills
   }
 
   .project-box {
-    height: 300px;
+    /* height: 300px; */
   }
 
   .project-list {
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
   .project-list .owl-item {
-    height: 300px;
+    /* height: 300px; */
+
+      margin: 0px !important;
   }
   .project-list a {
     display: none;

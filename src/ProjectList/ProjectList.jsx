@@ -48,16 +48,16 @@ function template() {
 
 
   return (
-    <div className="project-list">
-      <OwlCarousel
-        className="owl-theme"
-        margin={15}
-        autoplay={false}
-        responsive={resp}
-        >
-        {list}
-      </OwlCarousel>
-    </div>
+  <div className="project-list">
+    <OwlCarousel
+      className="owl-theme"
+      margin={15}
+      autoplay={false}
+      responsive={resp}
+      >
+      {list}
+    </OwlCarousel>
+  </div>
   );
 };
 
