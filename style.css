@@ -359,7 +359,7 @@ section {
 }
 
 .img-circle {
-  max-width: 50%;
+  max-width: 50% !important;
   margin: auto;
 }
 
@@ -880,7 +880,7 @@ Skills
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .about-me {
       display: block;
     }
@@ -985,7 +985,7 @@ Skills
 
 }
 
-@media (max-width: 479px) { 
+@media only screen and (max-width: 479px) { 
     .process li {
         border: 1px solid #aaa;
         min-width: 90px;
@@ -1050,7 +1050,7 @@ Skills
     display: none !important;
   }
 
-  .owl-carousel .owl-stage{
+  .owl-carousel .owl-stage {
     width:100% !important;
     transition:inherit !important;
     transform:inherit !important;
@@ -1062,10 +1062,11 @@ Skills
 
   .owl-item {
     display: inline-grid !important;
+    width: 90% !important;
   }
 
   .skill-holder .owl-item {
-    height: 150px;
+    /* height: 150px; */
   }
 
   .project-box {
@@ -1089,7 +1090,7 @@ Skills
   }
 
   .skill-list a {
-    display: none;
+    /* display: none; */
   }
 
   .skillbar-title span {
@@ -1110,4 +1111,5 @@ Skills
     margin: 0;
     min-width: 50px;
   }
+
 }
