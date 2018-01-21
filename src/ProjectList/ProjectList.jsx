@@ -13,11 +13,11 @@ function template() {
         <h4 className="title">
           {item.title}
           <div className="pull-right">
-              <a href={item.link}>
-                <div className="i-size-small">
-                  <i className="ion-social-github-outline"></i>
-                </div>
-              </a>
+            <a href={item.link}>
+              <div className="i-size-small">
+                <i className="ion-social-github-outline"></i>
+              </div>
+            </a>
           </div>
         </h4>
 
@@ -48,16 +48,16 @@ function template() {
 
 
   return (
-  <div className="project-list">
-    <OwlCarousel
-      className="owl-theme"
-      margin={15}
-      autoplay={false}
-      responsive={resp}
+    <div className="project-list">
+      <OwlCarousel
+        className="owl-theme"
+        margin={15}
+        autoplay={false}
+        responsive={resp}
       >
-      {list}
-    </OwlCarousel>
-  </div>
+        {list}
+      </OwlCarousel>
+    </div>
   );
 };
 

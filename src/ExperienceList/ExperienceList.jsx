@@ -14,9 +14,9 @@ function template() {
   return (
     <div className="experience-list">
       <div className="time-line">
-          <div className="row">
-              {list}
-          </div>
+        <div className="row">
+          {list}
+        </div>
       </div>
     </div>
   );
