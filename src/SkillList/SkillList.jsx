@@ -26,14 +26,13 @@ function template() {
   return (
     <div className="skill-list">
       <div className="section-holder texture">
-        <div className="icon-holder i-size-big">
+        <div className="icon-holder i-size-med">
           <i className="ion-ios-star-outline"></i>
+          <h3 className="tech-and-skills-header section-title">
+            Tech & Skills
+            <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition" className="dreyfus-info">(Dreyfus model)</a>
+          </h3>
         </div>
-
-        <h3 className="tech-and-skills-header">
-          Tech & Skills
-          <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition" className="dreyfus-info">(Dreyfus model)</a>
-        </h3>
           <div className="skill-holder">
             <OwlCarousel
               className="owl-theme"

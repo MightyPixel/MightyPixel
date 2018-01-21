@@ -9,20 +9,19 @@
             "description": "A collection of small projects in the field of data science. Each project is independent and serves mostly to demonstrate a concept and help me understand it better. This repository is mostly for keeping track of my study, but hopefully it can be useful to someone else too. :)"
         },
         {
-            "title": "Checkin@FMI",
-            "tag": "Python | RFID | Raspberry | Django",
-            "date": "Oct 2013",
-            "place": "HackFMI",
-            "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
-            "description": "Access control system with RFID cards & barcodes. My teammate and I won first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was funded from the university, so that it could be implemented in students' hall - making the access to the room easier and allowing books to be taken with ease. "
+            "title": "Recipe Guesser",
+            "tag": " Python | Genetic Algorithm",
+            "date": "Feb 2016",
+            "place": "FMI AI Course",
+            "link": "https://github.com/MightyPixel/guess_recipe",
+            "description": "Simple genetic algorithm that guesses the ingredients of a meal. Final project of AI university course scoring maximum points. I got good understanding of genetic algorithms."
         },
         {
-            "title": "Thanks Mate!",
-            "tag": "NodeJS | OpenCV | Face Recognition",
-            "date": "Apr 2015",
+            "title": "BikeON",
+            "tag": "Django | Python | Hardware | Arduino",
+            "date": "May 2016",
             "place": "HackFMI",
-            "link": "https://github.com/MightyPixel/innovation",
-            "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
+            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people."
         },
         {
             "title": "3D Scanner",
@@ -33,19 +32,20 @@
             "description": "Another HackFMI project: A colleague and I developed functional 3D scanner made by boxes, toy laser, 2 MP camera, etc. Working prototype with total cost $45. We won a mentor award."
         },
         {
-            "title": "BikeON",
-            "tag": "Django | Python | Hardware | Arduino",
-            "date": "May 2016",
+            "title": "Thanks Mate!",
+            "tag": "NodeJS | OpenCV | Face Recognition",
+            "date": "Apr 2015",
             "place": "HackFMI",
-            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people."
+            "link": "https://github.com/MightyPixel/innovation",
+            "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
         },
         {
-            "title": "Recipe Guesser",
-            "tag": " Python | Genetic Algorithm",
-            "date": "Feb 2016",
-            "place": "FMI AI Course",
-            "link": "https://github.com/MightyPixel/guess_recipe",
-            "description": "Simple genetic algorithm that guesses the ingredients of a meal. Final project of AI university course scoring maximum points. I got good understanding of genetic algorithms."
+            "title": "Checkin@FMI",
+            "tag": "Python | RFID | Raspberry | Django",
+            "date": "Oct 2013",
+            "place": "HackFMI",
+            "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
+            "description": "Access control system with RFID cards & barcodes. My teammate and I won first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was funded from the university, so that it could be implemented in students' hall - making the access to the room easier and allowing books to be taken with ease. "
         }
     ]
 }

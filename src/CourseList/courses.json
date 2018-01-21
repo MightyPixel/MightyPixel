@@ -1,5 +1,15 @@
 {
-    "data": [
+    "data": {
+       "breath": [
+        "CISCO CCNA Exploration 1 & 2(ELSYS)",
+        "Fundamentals of Network Security (FMI)",
+        "Cryptography I (Stanford - Coursera)",
+        "Embedded Systems - Arduino (ELSYS)",
+        "Human-Computer Interaction (Stanford - Coursera)",
+        "Business Skills For Software Engineers (Telerik Academy)",
+        "Startup Engineering (Stanford - Coursera)"
+       ],
+       "depth": [
         "Machine Learning (FMI)",
         "Machine Learning (Stanford - Coursera)",
         "Artificial intelligence (FMI)",
@@ -7,18 +17,10 @@
         "Functional programming (FMI)",
         "Probability and Statistics (FMI)",
         "Differential and integral calculus (FMI)",
-        "Analytical geometry (FMI)",
+        "Analytical & Differential geometry (FMI)",
         "Linear & Abstract Algebra (FMI)",
         "Algorithms: Design and Analysis, Part 1 (Stanford - Coursera)",
-        "Concurrent Programming (FMI)",
-        "Cryptography I (Stanford - Coursera)",
-        "Fundamentals of Network Security (FMI)",
-        "CISCO CCNA Exploration 1 & 2(ELSYS)",
-        "Embedded Systems - Arduino (ELSYS)",
-        "Human-Computer Interaction (Stanford - Coursera)",
-        "Business Skills For Software Engineers (Telerik Academy)",
-        "Startup Engineering (Stanford - Coursera)",
-        "Programming Languages (University of Washington - Coursera)",
-        "6.00x: Introduction to Computer Science and Programming (MITx - edX)"
-    ]
+        "Concurrent Programming (FMI)"
+       ]
+    }
 }

@@ -25,6 +25,10 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
@@ -78,35 +82,34 @@
                 <img src="assets/images/avatar.png" class="img-responsive img-circle" alt="Ognyan Angelov">
               </div>
               <div class="sep-mini"></div>
-              <h4> <strong>Name:</strong> <span class="about-me-info">Ognyan Angelov</span></h4>
-              <h4> <strong>Nick:</strong> <span class="about-me-info">MightyPixel</span></h4>
-              <h4> <strong>Nationality:</strong> <span class="about-me-info">Bulgarian</span></h4>
-              <h4> <strong>Profession:</strong> <span class="about-me-info">Software Engineer</span></h4>
+              <h4> <strong class="about-me-question">Name:</strong> <span class="about-me-info">Ognyan Angelov</span></h4>
+              <h4> <strong class="about-me-question">Nick:</strong> <span class="about-me-info">MightyPixel</span></h4>
+              <h4> <strong class="about-me-question">Nationality:</strong> <span class="about-me-info">Bulgarian</span></h4>
+              <h4> <strong class="about-me-question">Profession:</strong> <span class="about-me-info">Software Engineer</span></h4>
               <h4>
-                <strong>Favorite tool:</strong>
+                <strong class="about-me-question">Favorite tool:</strong>
                 <span class="about-me-info">
-                  <a href="http://spacemacs.org/">
-                  <img class="tool-logo" src="assets/images/emacs_logo.png">
-                  </a>
+                  <a href="http://spacemacs.org/"> <img class="tool-logo" src="assets/images/emacs_logo.png"> </a>
                 </span>
               </h4>
-              <h4 class="currently-title"> <strong>Currently</strong> </h4>
-              <ul class="currently-list">
-                <li>Reading: <a href="http://shop.oreilly.com/product/0636920056591.do" target="_blank">Advanced Analytics with Spark</a></li>
-                <li>Studying: <a href="http://fmi.machine-learning.bg/" target="_blank">Machine Learning @ FMI</a></li>
-              </ul>
+              <div class="no-print">
+                <h4 class="currently-title"> <strong>Currently</strong> </h4>
+                <ul class="currently-list">
+                    <li>Reading: <a href="http://shop.oreilly.com/product/0636920056591.do" target="_blank">Advanced Analytics with Spark</a></li>
+                    <li>Studying: <a href="http://fmi.machine-learning.bg/" target="_blank">Machine Learning @ FMI</a></li>
+                </ul>
+              </div>
 
               <div>
                 <div class="social-links">
-                  <a href="https://twitter.com/mightypixel" target="_blank"> <i class="ion-social-twitter-outline i-size-small"></i> </a>
-                  <a href="https://medium.com/@oangelov/" target="_blank"><i class="ion-ios-compose-outline i-size-small"></i></a>
-                  <a href="https://github.com/MightyPixel/" target="_blank"> <i class="ion-social-github-outline i-size-small"></i> </a>
-                  <a href="https://www.linkedin.com/in/ognyanangelov/" target="_blank"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
-                  <a href="https://mightypixel.libib.com/" target="_blank"><i class="ion-ios-bookmarks-outline i-size-small"></i></a>
+                  <a href="//twitter.com/mightypixel" target="_blank"> <i class="ion-social-twitter-outline i-size-small"></i> </a>
+                  <a href="//medium.com/@oangelov/" target="_blank"><i class="ion-ios-compose-outline i-size-small"></i></a>
+                  <a href="//github.com/MightyPixel/" target="_blank"> <i class="ion-social-github-outline i-size-small"></i> </a>
+                  <a href="//linkedin.com/in/ognyanangelov/" target="_blank"> <i class="ion-social-linkedin-outline i-size-small"></i> </a>
+                  <a href="//mightypixel.libib.com/" target="_blank"><i class="ion-ios-bookmarks-outline i-size-small"></i></a>
                 </div><!-- /.social-links -->
                 <!-- id used as tooltip title -->
                 <button class="tooltip-cl cv-download no-print button" data-tooltip="Print CV" onclick="window.print();"> <i class="ion-document-text i-size-small"></i> </button>
-
               </div>
             </div><!-- /.section-holder -->
           </div><!-- /. col -->
@@ -115,10 +118,10 @@
           <div class="col-md-8 col-md-pull-4">
             <div class="section-holder">
               <!-- short bio -->
-              <div class="icon-holder i-size-big">
+              <div class="icon-holder i-size-med">
                 <i class="ion-ios-compose-outline"></i>
+                <h3 class="section-title"> About Me </h3>
               </div>
-              <h3 class="section-title"> About Me </h3>
               <p>
                 <p class="print-only">
                   <strong>NOTE: This is printed version of www.oangelov.com on <span id="current-date"></span>
@@ -168,29 +171,27 @@
                      you can view my work <a href="">manifesto</a> (Coming soon)
                      </p> -->
               </p>
-              <br/>
-
-                <div class="row">
+              <div class="row">
                   <div class="col-sm-6 about-lang">
-                    <div class="lang-details">
-                    <div class="icon-holder i-size-small">
-                      <i class="ion-chatbubbles"></i>
-                    </div>
-                      <h4>Languages</h4>
-                      <p>Bulgarian (Native) | English (Advanced)</p>
-                    </div>
+                      <div class="lang-details">
+                          <div class="icon-holder i-size-small">
+                              <i class="ion-chatbubbles"></i>
+                              <h4 class="section-title">Languages</h4>
+                          </div>
+                          <p>Bulgarian (Native) | English (Advanced)</p>
+                      </div>
                   </div>
 
                   <div class="col-sm-6 about-hobbies">
-                    <div class="hobby-details">
-                    <div class="icon-holder i-size-small">
-                      <i class="ion-android-bicycle"></i>
-                    </div>
-                      <h4>Hobbies</h4>
-                      <p>Snowboarding | Swimming | Playing Games | Cooking</p>
-                    </div>
+                      <div class="hobby-details">
+                          <div class="icon-holder i-size-small">
+                              <i class="ion-android-bicycle"></i>
+                              <h4 class="section-title">Hobbies</h4>
+                          </div>
+                          <p>Snowboarding | Swimming | Cooking</p>
+                      </div>
                   </div>
-                </div>
+              </div>
             </div><!-- /.section-holder -->
           </div><!-- /.col -->
         </div><!-- /. row -->
@@ -198,8 +199,6 @@
     </section><!-- /.about -->
 
     <section id="skill-education">
-      <!-- Big Section Background Title
-      <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">education</h1><!-- /. large title -->
       <div class="container">
         <div class="row">
           <!-- education -->
@@ -209,23 +208,15 @@
         </div>
           <div class="col-md-8 col-md-pull-4">
             <div class="section-holder">
-              <div class="icon-holder i-size-big">
+              <div class="icon-holder i-size-med">
                 <i class="ion-university"></i>
+                <h3 class="section-title"> Education </h3>
               </div>
-              <h3> Education </h3>
               <div class="time-line">
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="time-item">
-                      <div class="time-year">
-                        2013-2017
-                      </div>
-                      <div class="icon-holder-time wow fadeIn" data-wow-delay=".25s">
-                        <i class="ion-ios-circle-outline"></i>
-                      </div>
-                      <h4 class="time-title">
-                        <strong>Bachelor Informatics</strong>
-                      </h4>
+                      <h4 class="time-title"> Bachelor Informatics (2013-2017)</h4>
                       <h5 class="time-semitag"> Sofia University - Faculty of Mathematics and Informatics (FMI) </h5>
                       <p>
                         FMI is essential place for the software industry in Sofia. Here most companies seek
@@ -243,15 +234,7 @@
                   </div><!-- /.col-md-12 -->
                   <div class="col-sm-12">
                     <div class="time-item">
-                      <div class="time-year">
-                        2007-2012
-                      </div>
-                      <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s">
-                        <i class="ion-ios-circle-outline"></i>
-                      </div>
-                      <h4 class="time-title">
-                        <strong>Computer Programming</strong>
-                      </h4>
+                      <h4 class="time-title"> Computer Programming (2007-2012)</h4>
                       <h5 class="time-semitag"> Technology School “Electronic Systems” (TUES) - Computer Programming Class </h5>
                       <p>
                         ELSYS a.k.a TUES or School under the authority of Technical University of Sofia for me is
@@ -281,18 +264,15 @@
 
 
     <section id="experience">
-      <!-- Big Section Background Title
-      <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">experience</h1><!-- /. large title -->
-
       <div class="container">
         <div class="row">
           <!-- work experience -->
           <div class="col-lg-8">
             <div class="section-holder">
-              <div class="icon-holder i-size-big">
+              <div class="icon-holder i-size-med">
                 <i class="ion-ios-briefcase-outline"></i>
+                <h3 class="section-title"> Work Experience (6 years) </h3>
               </div>
-              <h3> Work Experience (6 years) </h3>
               <div class="time-line">
                 <div id="experience-list"></div>
               </div>
@@ -311,24 +291,19 @@
     </section><!-- work experience & testimonials -->
 
     <section id="portfolio">
-      <div class="container">
-        <div class="section-holder">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="icon-holder i-size-big">
-                <i class="ion-ios-paper-outline"></i>
-              </div>
-              <h3>Pet Projects</h3>
-            </div><!-- /.col-sm-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-sm-12">
-              <div id="project-list">
-              </div>
-            </div>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-holder">
+                        <div class="icon-holder i-size-med">
+                            <i class="ion-coffee"></i>
+                            <h3 class="section-title">Pet Projects</h3>
+                        </div>
+                        <div id="project-list"></div>
+                    </div>
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
         </div>
-      </div>
     </section>
 
     <section id="fun-fact">
@@ -336,10 +311,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-holder">
-                            <div class="icon-holder-center i-size-big">
+                            <div class="icon-holder i-size-med">
                               <i class="ion-calculator"></i>
+                              <h3 class="section-title"> Fun Facts </h3>
                             </div>
-                        <h3 class="section-title"> Fun Facts </h3>
                         <ul class="counter">
                             <li>
                                 <div class="counter-icon i-size-med">

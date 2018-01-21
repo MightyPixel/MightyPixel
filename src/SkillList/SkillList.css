@@ -8,14 +8,8 @@
   margin-left: 10px;
 }
 
-.skill-title:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 100%;
-    background: #101010;
-    height: 1px;
-    bottom: -5px;
+.tech-and-skills-header {
+    margin-left: 8px;
 }
 
 .skillbar {

@@ -1,7 +1,7 @@
 export default {
   "data": [
     {
-        "source": "Probelm Solving",
+        "source": "Problem Solving",
         "skills": [
             {"name": "Analytical Thinking", "level": "4/5"},
             {"name": "Clean Code", "level": "4/5"},

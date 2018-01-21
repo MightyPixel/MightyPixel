@@ -6,19 +6,10 @@ function template() {
   return (
     <div id={id} key="props.key" className="experience col-sm-12">
       <div className="time-item">
-        <h3 className="time-title">
-          {this.props.details.companyName}
-        </h3>
-        <div className="icon-holder-time wow fadeIn">
-          <i className="ion-ios-circle-outline"></i>
-        </div>
-
-        <div className="time-year">
-          <h4>{this.props.details.timeframe}</h4>
-        </div>
-        <h5 className="time-semitag">{this.props.details.role}</h5>
+        <h4 className="time-title">{this.props.details.role} @ {this.props.details.companyName}</h4>
+        <h5 className="time-year">{this.props.details.timeframe}</h5>
         <div>
-          {this.props.details.description}
+          <p>{this.props.details.description}</p>
           <ul>
             {this.props.details.achivements.map((item) =>
               <li key={item}>{item}</li>
