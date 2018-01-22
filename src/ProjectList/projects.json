@@ -48,7 +48,7 @@
             "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
         },
         {
-            "title": "Thanks Mate!",
+            "title": "MatchUp",
             "tag": "AngularJS | Spring | Bootstrap",
             "date": "Nov. 2014",
             "place": "HackFMI",
