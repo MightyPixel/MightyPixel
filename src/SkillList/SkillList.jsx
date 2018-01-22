@@ -30,7 +30,7 @@ function template() {
           <i className="ion-ios-star-outline"></i>
           <h3 className="tech-and-skills-header section-title">
             Tech & Skills
-            <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition" className="dreyfus-info">(Dreyfus model)</a>
+            <a href="//en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition" className="dreyfus-info">(Dreyfus model)</a>
           </h3>
         </div>
           <div className="skill-holder">

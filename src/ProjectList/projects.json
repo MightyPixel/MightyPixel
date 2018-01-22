@@ -9,8 +9,16 @@
             "description": "A collection of small projects in the field of data science. Each project is independent and serves mostly to demonstrate a concept and help me understand it better. This repository is mostly for keeping track of my study, but hopefully it can be useful to someone else too. :)"
         },
         {
+            "title": "MightyPixel",
+            "tag": "Web | React.JS",
+            "date": "Summer 2017",
+            "place": "Home",
+            "link": "https://github.com/MightyPixel/MightyPixel",
+            "description": "A static personal website hosted on Github pages that uses react. The goal of the project is to create responsive, print-friendly, visualy appealing, clean and readable site that serves as prortfolio or resume."
+        },
+        {
             "title": "Recipe Guesser",
-            "tag": " Python | Genetic Algorithm",
+            "tag": "Python | Genetic Algorithm",
             "date": "Feb 2016",
             "place": "FMI AI Course",
             "link": "https://github.com/MightyPixel/guess_recipe",
@@ -21,7 +29,7 @@
             "tag": "Django | Python | Hardware | Arduino",
             "date": "May 2016",
             "place": "HackFMI",
-            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people."
+            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people. My responsibility was to create the hardware prototype using raspberry, arduino and some hardware components."
         },
         {
             "title": "3D Scanner",
@@ -39,6 +47,15 @@
             "link": "https://github.com/MightyPixel/innovation",
             "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
         },
+        {
+            "title": "Thanks Mate!",
+            "tag": "AngularJS | Spring | Bootstrap",
+            "date": "Nov. 2014",
+            "place": "HackFMI",
+            "link": "https://github.com/MightyPixel/MatchUp",
+            "description": "1337 team's HackFMI 4 project a collective sports organization platform. Our team consisted of total of 4 people. My role was to bootstrap the whole project as well as teach AngularJS to one team member that have never worked on frontend."
+        },
+
         {
             "title": "Checkin@FMI",
             "tag": "Python | RFID | Raspberry | Django",

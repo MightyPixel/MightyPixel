@@ -1,7 +1,7 @@
 {
     "data": {
        "breath": [
-        "CISCO CCNA Exploration 1 & 2(ELSYS)",
+        "CISCO CCNA 1 & 2(ELSYS)",
         "Fundamentals of Network Security (FMI)",
         "Cryptography I (Stanford - Coursera)",
         "Embedded Systems - Arduino (ELSYS)",
@@ -19,8 +19,10 @@
         "Differential and integral calculus (FMI)",
         "Analytical & Differential geometry (FMI)",
         "Linear & Abstract Algebra (FMI)",
+        "Concurrent Programming (FMI)",
         "Algorithms: Design and Analysis, Part 1 (Stanford - Coursera)",
-        "Concurrent Programming (FMI)"
+        "Programming Languages (University of Washington - Coursera)",
+        "6.00x: Introduction to Computer Science and Programming (MITx - edX)"
        ]
     }
 }

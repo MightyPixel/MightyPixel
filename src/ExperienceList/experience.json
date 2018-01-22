@@ -4,13 +4,14 @@
             "companyName": "Chobolabs",
             "timeframe": "March 2016 - May 2017 (~1.5 years)",
             "role": "Backend & Tools Engineer",
-            "description": " Innovative game company trying to bring e-sports to mobile. Our expectation for Chobolabs's flagship game - \"Mayhem\" is to be big as \"Angry Birds\" and profitable as \"Crash Royale\".",
+            "description": "Innovative game startup of 20 people trying to bring e-sports to mobile. The flagship game called Mayhem is Series A funded project.",
             "achivements": [
-                "For 1 year I got used to DYI mindset & code generation approach.",
+                "I got used to DYI mindset & code generation using custom DSL.",
+                "I created the \"Chatter Protocol\" - It allows using Chobolabs's DSL to generate inter-microservice communication protocol that exposes clean pub/sub style typed interface.",
                 "Managed the infrastructure - using AWS/Packer/Terraform.",
-                "Integrate and Setup third party services - monitoring & alarm service (Datadog), data analytics (DeltaDNA+Cloudant).",
-                "I crafted \"Chatter Protocol\" - It allows using Chobolabs's DSL to generate inter-microservice communication protocol that exposes clean pub/sub style typed interface.",
+                "I was responsible for third party services integrations like monitoring & alarm service (Datadog), data analytics (DeltaDNA+Cloudant).",
                 "Chobo Backyard - Angular admin panel that can generate forms using type info from the backend.",
+                "I helped QA team to be more effective by creating automation tools.",
                 "Solved real time communication issue - We needed to be able to implement features like chat or notify users for events in real time."
             ]
         },
@@ -20,17 +21,18 @@
             "role": "Full Stack Engineer",
             "description": "Team of 20 professionals working in small teams with startups. Every employee is motivated to become expert in the domain.",
             "achivements": [
-                "Learned to work in small and self-contained full-stack teams, working with clients (mostly startups) to achieve their business goal and improving as engineer",
-                "Hired By Me - Platform that facilitates hiring in UK. I had the chance to work with very strong and methodological team. We used all good practices that made sense - code reviews, ownership of problems, scrum and knowledge sharing. We used Spring and Angular. I architected a e-mail-like feature",
-                "SoTexy - Platform that allowed matching people to their perfect career. I owned the engineering side and worked closely with the business and leading small team of 2.",
-                "10+ smaller projects"
+                "Learned to work in small and self-contained full-stack teams, working with clients (mostly startups) to achieve their business goal while improving as engineer",
+                "Hired By Me - Platform that facilitates hiring in UK. I had the chance to work with very strong and methodological team. We used all good practices that made sense - code reviews, ownership of problems, scrum and knowledge sharing. We used Spring and Angular.",
+                "Wintergarden - An Universum project. I worked with the same team as in Hired By Me. One of my task was to architecte and develop an e-mail-like feature",
+                "SoTexy - Platform that allowed matching people to their perfect career. I owned the engineering side and worked closely with the business and lead small team of 2.",
+                "10+ smaller projects utilising various tech. stacks"
             ]
         },
         {
             "companyName": "Buzlylabs",
             "timeframe": "Oct. 2011 - Dec. 2012 (~2 years)",
             "role": "iOS Developer",
-            "description": "Mobile Application Company",
+            "description": "Small team creating Android and iOS applications and games.",
             "achivements": [
                 "Developed 5 iOS games & applications.",
                 "Appshawk - Application that displays paid apps that are free for limited time. With this app we applied for funding in the very first Bulgarian incubator - my first experience with the startup world.",
