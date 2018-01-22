@@ -1045,8 +1045,16 @@ Skills
   }
 
   a[href]::after {
-      content: " (" attr(href) ")"
-}
+    content: " (" attr(href) ")";
+  }
+
+  #skill-education a {
+    font-size: 16px;
+  }
+
+  #skill-education a[href]::after {
+    content: "";
+  }
 
   .about-me {
     display: flex;
