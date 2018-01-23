@@ -127,6 +127,10 @@ i {
     font-size: 30px;
 }
 
+.about-me i {
+  margin-right: 5px;
+}
+
 .i-size-big, .i-size-med, .i-size-small {
     color: #101010;
 }
