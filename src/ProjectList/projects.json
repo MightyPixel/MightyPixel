@@ -6,7 +6,7 @@
             "date": "Fall 2017",
             "place": "Home",
             "link": "https://github.com/MightyPixel/MightyLab",
-            "description": "A collection of small projects in the field of data science. Each project is independent and serves mostly to demonstrate a concept and help me understand it better. This repository is mostly for keeping track of my study, but hopefully it can be useful to someone else too. :)"
+            "description": "A collection of small projects in the field of data science. Each project is independent and serves mostly to demonstrate a concept and help to better understandit. I use this repository mostly to keep track of my studies, but hopefully it can be useful to someone else too. :)"
         },
         {
             "title": "MightyPixel",
@@ -14,7 +14,7 @@
             "date": "Summer 2017",
             "place": "Home",
             "link": "https://github.com/MightyPixel/MightyPixel",
-            "description": "A static personal website hosted on Github pages that uses react. The goal of the project is to create responsive, print-friendly, visualy appealing, clean and readable site that serves as prortfolio or resume."
+            "description": "A static personal website hosted on Github pages that uses react. The goal of the project was to create responsive, print-friendly, visualy appealing, clean and readable site that serves a prortfolio or a resume."
         },
         {
             "title": "Recipe Guesser",
@@ -22,14 +22,14 @@
             "date": "Feb 2016",
             "place": "FMI AI Course",
             "link": "https://github.com/MightyPixel/guess_recipe",
-            "description": "Simple genetic algorithm that guesses the ingredients of a meal. Final project of AI university course scoring maximum points. I got good understanding of genetic algorithms."
+            "description": "Simple genetic algorithm that guesses the ingredients of a meal. Final project of AI university course, scoring the maximum points. Thanks to this course, I gained a good understanding of genetic algorithms."
         },
         {
             "title": "BikeON",
             "tag": "Django | Python | Hardware | Arduino",
             "date": "May 2016",
             "place": "HackFMI",
-            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with team of 6 people. My responsibility was to create the hardware prototype using raspberry, arduino and some hardware components."
+            "description": "Smart and secure way to park bikes. Designed and implemented working software and hardware prototype with a team of 6 people. My responsibility was to create the hardware prototype using raspberry, arduino and some hardware components."
         },
         {
             "title": "3D Scanner",
@@ -37,7 +37,7 @@
             "date": "Dec 2015",
             "place": "HackFMI",
             "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
-            "description": "Another HackFMI project: A colleague and I developed functional 3D scanner made by boxes, toy laser, 2 MP camera, etc. Working prototype with total cost $45. We won a mentor award."
+            "description": "Another HackFMI project: A colleague and I developed functional 3D scanner composed of carton boxes, a toy laser, a 2 MP camera, etc. Working prototype with total cost $45. We won mentor's award."
         },
         {
             "title": "Thanks Mate!",
@@ -45,7 +45,7 @@
             "date": "Apr 2015",
             "place": "HackFMI",
             "link": "https://github.com/MightyPixel/innovation",
-            "description": "The project aims to provide a simple way to give appreciation of others who helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching 60% accuracy. We won mentor's award."
+            "description": "The project aims to provide a simple way to show appreciation to people who have helped you in some way. Using simple photo you can thank others. Tackled the single-sample-problem in face recognition reaching a 60% accuracy. We won mentor's award."
         },
         {
             "title": "MatchUp",
@@ -62,7 +62,7 @@
             "date": "Oct 2013",
             "place": "HackFMI",
             "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
-            "description": "Access control system with RFID cards & barcodes. My teammate and I won first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was funded from the university, so that it could be implemented in students' hall - making the access to the room easier and allowing books to be taken with ease. "
+            "description": "Access control system with RFID cards & barcodes. My teammate and I won the first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was fully funded by the university, so that it could be implemented in the students' hall - making the access to the room easier and allowing for a simpler way for borrowing books. "
         }
     ]
 }
