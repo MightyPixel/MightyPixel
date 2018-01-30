@@ -128,7 +128,7 @@ i {
 }
 
 .about-me i {
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 
 .i-size-big, .i-size-med, .i-size-small {
@@ -863,7 +863,6 @@ Skills
     display: inline-block;
 }
 .social-links a {
-    margin-right: 5px;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -1032,7 +1031,10 @@ Skills
 @media print
 {
   #Header, #Footer { display: none !important; }
-  @page { margin: 5px; }
+  @page {
+    margin: 5px;
+    size: A4;
+  }
 
   .print-only {
     display: block;
@@ -1043,8 +1045,12 @@ Skills
       font-family: sans-serif !important;
   }
 
+  .about-card {
+    min-width: 280px;
+  }
+
   i-size-small {
-      font-size: 14px;
+      font-size: 12px;
   }
 
   a[href]::after {
@@ -1066,6 +1072,14 @@ Skills
   .about-me-question {
       display: block;
       margin-top: 10px;
+  }
+
+  .social-links {
+    width: 100%;
+  }
+
+  .social-links a {
+    display: block;
   }
 
   .about-me-info {

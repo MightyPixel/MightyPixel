@@ -1,7 +1,7 @@
 import React from "react";
 import OwlCarousel from 'react-owl-carousel';
 import "./SkillList.css";
-import skillsData from "./skills.js";
+import skillsData from "./skills.json";
 
 function template() {
   const data = skillsData.data;
@@ -30,7 +30,6 @@ function template() {
           <i className="ion-ios-star-outline"></i>
           <h3 className="tech-and-skills-header section-title">
             Tech & Skills
-            <a href="//en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition" className="dreyfus-info">(Dreyfus model)</a>
           </h3>
         </div>
           <div className="skill-holder">

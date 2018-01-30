@@ -23,9 +23,9 @@ function template() {
   return (
     <div className="info-list">
       <div className="section-holder texture">
-        <div class="icon-holder i-size-med">
-          <i class="ion-man"></i>
-          <h3 class="tech-and-skills-header section-title"> {this.props.sectionType} </h3>
+        <div className="icon-holder i-size-med">
+          <i className="ion-man"></i>
+          <h3 className="tech-and-skills-header section-title"> {this.props.sectionType} </h3>
         </div>
 
         <div className="course-holder">
