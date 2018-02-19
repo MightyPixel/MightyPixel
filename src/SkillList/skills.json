@@ -25,8 +25,8 @@
             "skills": [
                 {"name": "Statistics", "level": "4/5"},
                 {"name": "Linear Algebra", "level": "4/5"},
-                {"name": "Descrete Mathematics", "level": "3/5"},
-                {"name": "Differential equaasions", "level": "3/5"},
+                {"name": "Discrete Mathematics", "level": "3/5"},
+                {"name": "Differential Equations", "level": "3/5"},
                 {"name": "Geometry", "level": "3/5"}
             ]
         },
