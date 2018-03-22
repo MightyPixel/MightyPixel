@@ -9,6 +9,14 @@
             "description": "A collection of small projects in the field of data science. Each project is independent and serves mostly to demonstrate a concept and help to better understandit. I use this repository mostly to keep track of my studies, but hopefully it can be useful to someone else too. :)"
         },
         {
+            "title": "Algorithms",
+            "tag": "Python | Algorithms",
+            "date": "Fall 2017",
+            "place": "Home",
+            "link": "https://github.com/MightyPixel/algorithms",
+            "description": "A collection of algorithms. Each algorithm serves mostly to demonstrate a concept and help me understand it better. This repository is mostly for keeping track of my study, but hopefully it can be useful to someone else too. :)"
+        },
+        {
             "title": "MightyPixel",
             "tag": "Web | React.JS",
             "date": "Summer 2017",
@@ -36,8 +44,7 @@
             "tag": "Arduino | Python | Hardware",
             "date": "Dec 2015",
             "place": "HackFMI",
-            "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
-            "description": "Another HackFMI project: A colleague and I developed functional 3D scanner composed of carton boxes, a toy laser, a 2 MP camera, etc. Working prototype with total cost $45. We won mentor's award."
+            "description": "3D scanner composed of carton boxes, a toy laser, a 2 MP camera, etc. Working prototype with total cost $45 (Mostly for an Arduino). My teammate and I won mentor's award."
         },
         {
             "title": "Thanks Mate!",
@@ -62,7 +69,7 @@
             "date": "Oct 2013",
             "place": "HackFMI",
             "link": "https://github.com/TheCodingMonkeys/checkin-at-fmi",
-            "description": "Access control system with RFID cards & barcodes. My teammate and I won the first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was fully funded by the university, so that it could be implemented in the students' hall - making the access to the room easier and allowing for a simpler way for borrowing books. "
+            "description": "Access control system with RFID cards & barcodes. My teammate and I won the first prize on HackFMI (FMI Hackathon) after presenting working prototype. The project was fully funded by the university, so that it could be implemented in the students' hall - making the access to the room easier and allowing for a simpler way for borrowing books."
         }
     ]
 }
