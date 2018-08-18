@@ -1,6 +1,17 @@
 {
     "experience": [
         {
+            "companyName": "Financial Times",
+            "timeframe": "April 2018 - Present",
+            "role": "Software Engineer",
+            "description": "FT is one of the world’s leading business news and information organisations.",
+            "achivements": [
+                "I joined the company as the first developer in Sofia. This have alowed me to participate in various activities outside programming - interviewing, improving the onboarding process, directly influence the culture and mindset.",
+                "I started in the newspaper team where we had the responsibility to migrate users from third party system.",
+                "I am participating in the knowledge transfer from London of Membership systems - around 100 microservices responsible of access and identity, subscriptions, payments, newspaper systems, reporting, etc."
+            ]
+        },
+        {
             "companyName": "Chobolabs",
             "timeframe": "March 2016 - May 2017 (~1.5 years)",
             "role": "Backend & Tools Engineer",
